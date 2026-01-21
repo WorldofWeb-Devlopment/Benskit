@@ -180,10 +180,10 @@ padding: 30px;
 }
 .media-profile{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 40px;
     align-items: center;
-    column-gap: 30px;
+    
 }
 .header-2 h2{
     text-align: center;
@@ -215,3 +215,36 @@ padding: 30px;
 .media-profile-1{
     margin-top: 20px;
 }
+/* .clients{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 20px;
+    
+} */
+/* .clients img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+.clients h3{
+    font-family: "Poppins", sans-serif ;
+    font-size: 40px;
+}
+.para{
+    font-size: 16px;
+    text-align: center;
+    color: #426666;
+    line-height: 1.7;
+}
+.ceo-message{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    column-gap: 10px;
+}
+.message p{
+    color: #6D6D6D;
+    font-family: "Inter", sans-serif;
+    line-height: 1.8;
+} */
