@@ -332,14 +332,13 @@ padding: 30px;
 @media screen and (max-width:600px) {
     section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100dvh;
     background-image: url(bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
-
-    
+    height: auto;  
+ 
 }
 .header {
     max-width:600px;
@@ -351,28 +350,34 @@ padding: 30px;
         text-align: center;
         flex-direction: column;
         gap: 40px;
-
+      
     }
     .nav-logo h1 {
     font-family: "Lekton", monospace;
     font-weight: bold;
+    font-size: 60px;
+}
+.nav-elements a {
+    margin-right: 46px;
+    font-weight: 400;
     font-size: 20px;
+    color: white;
 }
    .main-text {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .main-text h3 {
     font-family: "Poppins", sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bold;
     line-height: 1.2;
     color: white;
 }
 .main-text p {
     font-family: "Inter", sans-serif;
-    margin-top: 40px;
-    font-size: 14px;
+    margin-top: 60px;
+    font-size: 20px;
     color: white;
     line-height: 1.6;
 }
@@ -388,10 +393,10 @@ span {
 
 span a {
     color: white;
-    font-size: 15px;
+    font-size: 25px;
 }
 span i{
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 10px;
 }
 
@@ -409,12 +414,55 @@ span i{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    gap: 0px;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+}
+.content-box-right img{
+    margin-top: 10px;
+    padding: 20px 0px;
 }
 .content-box-left p{
     text-align: center;
 }
-.content-box-left a,
-.content-box-left i{
-    text-align: center ;
+.button{
+    text-align: center;
+    margin-top: 10px;
+}
+.ceo-message{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    column-gap: 10px;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+}
+.message,
+.message-img{
+    margin-top: 20px;
+}
+.ceo-name{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+.media-profile{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.copy{
+    padding: 30px 0px;
 }
 }
