@@ -131,7 +131,7 @@ span i{
 .content-box-main{
     display: flex;
     justify-content: space-evenly;
-    align-items: start;
+    align-items: center;
 }
 .content-box-left{
     display: flex;
@@ -215,14 +215,14 @@ padding: 30px;
 .media-profile-1{
     margin-top: 20px;
 }
-/* .clients{
+.clients{
     display: flex;
     justify-content: center;
     margin-top: 20px;
     column-gap: 20px;
     
-} */
-/* .clients img{
+} 
+ .clients img{
     width: 50px;
     margin-bottom: 30px;
 }
@@ -247,4 +247,81 @@ padding: 30px;
     color: #6D6D6D;
     font-family: "Inter", sans-serif;
     line-height: 1.8;
-} */
+    font-size: 22px;
+}
+.ceo-name{
+    margin-top: 30px;
+}
+.ceo-name p{
+    font-family:"Inter", sans-serif ;
+    color:#6D6D6D ;
+    font-size: 14px;
+}
+.news-letter{
+    background-image:url(bg.jpg) ;
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.news-letter-wrapper{
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.news-letter-wrapper h2{
+    font-size: 40px;
+    font-family:"Poppins", sans-serif ;
+    color: white;
+    font-weight: 500;
+}
+.news-letter-wrapper p{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: white;
+    opacity: 0.7;
+}
+.news-letter-wrapper a{
+    background-color: black;
+    font-family: "Inter" , sans-serif;
+    font-size: 14px;
+    align-self: center;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    margin-top: 30px;
+}
+.elements,
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.elements a{
+    color: black;
+}
+.copy{
+    text-align: center;
+    margin-top: 50px;
+    color: #42424A;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+
+}
+.copy p{
+    margin-top: 50px;
+}
